@@ -31,6 +31,10 @@ export const metadata = () => {
       description: "Explore the latest collection of shoes at our online shop.",
       images: ["https://apistore.cybersoft.edu.vn/images/van-old-school.png"], // Replace with a default image
     },
+    // Add canonical URL here
+    alternates: {
+      canonical: "https://shoseshopnextjs.vercel.app/", // Replace with your actual canonical URL
+    },
   };
 };
 const Home = async () => {
